@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Tabs</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="title">
+        <p>Clicking each tab should hide the content of the other tab and show the content of clicked tab. <b>By default, enable the first tab.</b></p>
+      </div>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'firstTab')">First Tab</button>
+        <button class="tablinks" onclick="openCity(event, 'secondTab')">Second Tab</button>
+        <button class="tablinks" onclick="openCity(event, 'thirdTab')">Third Tab</button>
+        <button class="tablinks" onclick="openCity(event, 'fourthTab')">Fourth Tab</button>
+      </div>
+
+      <div id="firstTab" class="tabcontent">
+        <h3>First Tab</h3>
+        <p>First Tab content to be displayed here.</p>
+      </div>
+
+      <div id="secondTab" class="tabcontent">
+        <h3>Second Tab</h3>
+        <p>Second Tab content to be displayed here.</p>
+      </div>
+
+      <div id="thirdTab" class="tabcontent">
+        <h3>Third Tab</h3>
+        <p>Third Tab content to be displayed here.</p>
+      </div>
+
+      <div id="fourthTab" class="tabcontent">
+        <h3>Fourth Tab</h3>
+        <p>Fourth Tab content to be displayed here.</p>
+      </div>
+      <p>Add some dummy content or just add a simple text showing the tab</p>
+    </div>
+
+    <!-- custom js -->
+    <script src="assets/script.js"></script>
+  </body>
+</html>
